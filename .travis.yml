@@ -1,6 +1,5 @@
 language: objective-c
-compiler: gcc
 
-dist: trusty
-sudo: required
-
+before_install:
+    - gem install ios_ci
+    - brew install ios-sim
