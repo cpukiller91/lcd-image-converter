@@ -1,4 +1,4 @@
-language: objective-c
+language: swift
 xcode_project: LCD-Image.xcodeproj # path to your xcodeproj folder
 xcode_scheme: LCDImage
 xcode_destination: platform=macOS
