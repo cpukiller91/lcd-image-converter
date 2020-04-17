@@ -1,4 +1,7 @@
-language: swift
-xcode_project: LCD-Image.xcodeproj # path to your xcodeproj folder
-xcode_scheme: LCDImage
-xcode_destination: platform=macOS Simulator,OS=10.13
+language: cpp
+compiler: gcc
+os:
+- osx
+dist: trusty
+sudo: required
+
