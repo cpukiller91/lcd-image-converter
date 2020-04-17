@@ -1,5 +1,4 @@
 language: objective-c
-
-before_install:
-    - gem install ios_ci
-    - brew install ios-sim
+xcode_project: LCD-Image.xcodeproj # path to your xcodeproj folder
+xcode_scheme: LCDImage
+xcode_destination: platform=macOS
