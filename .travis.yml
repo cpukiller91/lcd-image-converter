@@ -4,19 +4,6 @@ compiler: gcc
 dist: trusty
 sudo: required
 os: osx
-env:
-    global:
-        - MAKEFLAGS="-j4"
-    
-
-before_install:
-   
-    - sudo apt-get update -qq
-
-install:
-       - sudo apt-get install -y --force-yes build-essential libglu1-mesa-dev
-
-
 
 script:
     - make
